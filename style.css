@@ -1,0 +1,123 @@
+body {
+    margin: 0 auto;
+    background-color: #ddd;
+}
+.container {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+.header {
+    float: left;
+    padding: 20px;
+}
+.search-bar {
+    float: right;
+    padding: 20px;
+}
+.clear-fix {
+    clear: both;
+}
+.navbar {
+    background-color: teal;
+}
+.navbar > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+.navbar > ul > li {
+    display: inline-block;
+}
+.navbar > ul > li:hover .drop {
+    display: block;
+}
+.navbar > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.navbar > ul > li > a:hover {
+    background-color: orange;
+}
+.drop {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+.drop > li > a:hover {
+    background-color: black;
+    color: white;
+}
+.slide {
+    width: 1000px;
+    height: 562.5px;
+    overflow: hidden;
+}
+.slide img {
+    width: 1000px;
+    height: auto;
+}
+.content {
+    width: 75%;
+    float: left;
+}
+
+.widget-holder {
+    width: 25%;
+    height: 317.78px;
+    float: right;
+    background-color: tomato;
+}
+.content-holder div h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.content-holder div p {
+    padding: 40px;
+    text-align: justify;
+    font-size: 15px;
+}
+.widget-list {
+    list-style-type: none;
+}
+.widget-list li {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.widget-holder ul li {
+    font-weight: bold;
+}
+.footer-part  {
+    text-align: center;
+    padding: 40px;
+}
+.footer-part .footer-menu {
+    float: left;
+    width: 25%;
+}
+.footer-menu ul {
+    list-style-type: none;
+}
+.footer-part {
+    background-color: black;
+    color: white;
+}
+.endpart {
+    background-color: #0000008c;
+    text-align: center;
+    padding: 25px;
+}
